@@ -1,0 +1,35 @@
+
+.swiper-wrapper{
+  position:absolute;
+  width: 500%;
+  display:flex;
+  .swiper-item{
+    flex:none;
+    width: 20%;
+    img{
+      display:block;
+    }
+  }
+}
+
+/*点的布局*/
+.pagination{
+  width:100%;
+  position:absolute;
+  bottom:10px;
+  left:0;
+  display: flex;
+  justify-content: center;
+  span{
+    width:10px;
+    height:10px;
+    background:white;
+    border-radius: 50%;
+    display:block;
+    float:left;
+    margin-right:5px;
+    &.active{
+      background:deeppink;
+    }
+  }
+}
